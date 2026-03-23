@@ -50,4 +50,6 @@ Documented Steps: A repeatable Power Query M-script workflow.
  dirty_cafe_sales.csv: Raw data containing nulls, blanks, and errors.
 
 Cafe_Sales_Analysis.pbix: Power BI file showcasing the Applied Steps.
+
+Dashboard.png: A Screenshot of Dashboard using PowerBI.
 </p>
