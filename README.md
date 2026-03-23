@@ -7,7 +7,7 @@ The objective of this project was to transform a "dirty" dataset of 10,000 cafe 
 
 <h2>Technical Workflow</h2>
 <p>
-  1. Data Sanitization & Row Filtering
+1. Data Sanitization & Row Filtering
 To ensure the mathematical accuracy of the model, I performed the following:
 
 Targeted Cleaning: Identified the Quantity and Unit Price columns as the "Source of Truth."
@@ -34,4 +34,20 @@ Date Duplication: Duplicated the Transaction Date to preserve the original times
 Column Splitting: Deconstructed the date into three distinct columns: Year, Month, and Day.
 
 Benefit: This allows the end-user to drill down into sales performance by specific years or months without complex DAX.
+</p>
+
+<h2>Key Deliverables</h2>
+<p>
+Verified Dataset: A cleaned version of the data (~9,000 rows) with 100% calculation accuracy.
+
+Granular Attributes: New dimensions for Year, Month, and Day for enhanced filtering.
+
+Documented Steps: A repeatable Power Query M-script workflow.
+</p>
+
+<h2> Files in this Repository</h2>
+<p>
+ dirty_cafe_sales.csv: Raw data containing nulls, blanks, and errors.
+
+Cafe_Sales_Analysis.pbix: Power BI file showcasing the Applied Steps.
 </p>
