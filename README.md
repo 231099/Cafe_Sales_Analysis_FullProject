@@ -53,3 +53,6 @@ Cafe_Sales_Analysis.pbix: Power BI file showcasing the Applied Steps.
 
 Dashboard.png: A Screenshot of Dashboard using PowerBI.
 </p>
+
+##  Dashboard Preview
+![Dashboard](Dashboard/dashboard.png)
